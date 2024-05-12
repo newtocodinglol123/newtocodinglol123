@@ -1874,7 +1874,8 @@ GeneralSettings.CreateButton2({
 		end
 		shared.VapeSwitchServers = true
 		shared.VapeOpenGui = true
-		shared.VapePrivate = vapePrivateCheck
+		shared.VapePrivate = true
+																																														
 		loadstring(vapeGithubRequest("NewMainScript.lua"))()
 	end
 })
